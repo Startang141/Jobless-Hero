@@ -43,5 +43,66 @@ nav{
 .active{
     text-decoration: none;
     color: #000000;
-    border-bottom: 3px solid #000000;
+    font-weight: 600;
+}
+
+.btn-sign{
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #00000043;
+    border-radius: 3px;
+}
+.hero-fill{
+    margin: 135px auto;
+    text-align: center;
+}
+
+
+.tittle-hero{
+    justify-content: center;
+}
+
+.tittle-hero h1{
+    width: 50%;
+    font-size: 36px;  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.tittle-hero p{
+    font-size: 16px;
+    width: 38%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.button-hero{
+    margin-top: 40px;
+}
+
+.btn-primary{
+    padding: 12px 17px;
+    font-size: 16px;
+    background-color: #001AFF;
+    color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px #e7e7ff;
+}
+
+.btn-secondary{
+    padding: 12px 17px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #001AFF;
+    border-radius: 100px;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-secondary p {
+    color: #001AFF;
+    font-weight: 500;
+    border-bottom: 2px solid #001aff6d;
 }
