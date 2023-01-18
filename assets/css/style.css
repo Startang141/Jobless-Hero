@@ -40,7 +40,7 @@ nav{
     color: #000000;
 }
 
-.active{
+.menu li a:hover{
     text-decoration: none;
     color: #000000;
     font-weight: 600;
@@ -52,6 +52,15 @@ nav{
     border: 1px solid #00000043;
     border-radius: 3px;
 }
+
+.btn-sign:hover{
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border: 1px solid #00000043;
+    border-radius: 3px;
+}
+
+
 .hero-fill{
     margin: 135px auto;
     text-align: center;
@@ -127,7 +136,7 @@ nav{
     box-shadow: 0px 3px 3px #001aff31;
 }
 
-.card-active{
+.card:hover{
     background-color: #001AFF;
     border-radius: 8px;
     width: 360px;
@@ -135,9 +144,18 @@ nav{
     box-shadow: 0px 3px 3px #001aff31;
 }
 
+.card:hover .header-card h3{
+    color:#ffffff;
+}
+
+.card:hover p{
+    color:#ffffffc4;
+}
+
 .header-card{
     display: flex;
     margin-bottom: 20px;
+    color
 }
 
 .img-card{
@@ -146,17 +164,17 @@ nav{
 
 .tittle-card h3{
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .tittle-card p{
     font-size: 14px;
-    color: #fffff576;
+    color: rgba(0, 0, 0, 0.639);
 }
 
 .fill-card{
     font-size: 16px;
-    color: #fffff5aa;
+    color: rgba(0, 0, 0, 0.639);
 }
 
 hr{
@@ -171,7 +189,7 @@ hr{
     align-items: center;
 }
 
-.btn-tag-active{
+.card:hover .btn-tag{
     border-radius: 100px;
     padding: 5px 15px;
     color: #ffffff;
@@ -184,7 +202,7 @@ hr{
 .btn-tag{
     border-radius: 100px;
     padding: 5px 15px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
     border: none;
     background-color: #36363613;
@@ -192,6 +210,12 @@ hr{
 }
 
 .bottom-card h3{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.card:hover .bottom-card h3{
     font-size: 14px;
     color: #ffffff;
     font-weight: 500;
